@@ -1,0 +1,22 @@
+p{
+    color: antiquewhite;
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+body{
+    background-color: black;
+   
+}
+
+h1{
+    color: antiquewhite;
+    font-size: 100px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
