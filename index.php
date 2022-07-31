@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>PHP CLOCK</h1>
+<h1>PHP CLOCK</h1><br>
 <p><?php
-$target = mktime(0, 0, 0, 8, 2, 2022);
+$target = mktime(0, 0, 0, 12, 23, 2022);
 $today =time();
 $difference= ($target-$today);
 $days=(int)($difference/86400);
